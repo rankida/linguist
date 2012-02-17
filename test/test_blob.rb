@@ -388,6 +388,10 @@ class TestBlob < Test::Unit::TestCase
     assert_equal Language['CSS'], blob("screen.sass").language.group
     assert_equal Language['SCSS'], blob("screen.scss").language
     assert_equal Language['CSS'], blob("screen.scss").language.group
+
+    # PowerShell
+    assert_equal Language['PowerShell'], blob("hello.ps1").language
+    assert_equal Language['PowerShell'], blob("hello.psm1").language
   end
 
   def test_lexer

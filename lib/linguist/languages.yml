@@ -761,11 +761,12 @@ Perl:
   - .psgi
   - .t
 
-Powershell:
+PowerShell:
   type: programming
-  lexer: Text only
+  lexer: PowerShell
   aliases:
   - posh
+  - Powershell
   extensions:
   - .ps1
   - .psm1
