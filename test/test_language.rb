@@ -102,6 +102,8 @@ class TestLanguage < Test::Unit::TestCase
     assert_equal Language['Literate Haskell'], Language.find_by_alias('literate-haskell')
     assert_equal Language['Parrot Internal Representation'], Language.find_by_alias('pir')
     assert_equal Language['PowerShell'], Language.find_by_alias('posh')
+    assert_equal Language['PowerShell'], Language.find_by_alias('powershell')
+    assert_equal Language['PowerShell'], Language.find_by_alias('Powershell')
     assert_equal Language['Puppet'], Language.find_by_alias('puppet')
     assert_equal Language['Pure Data'], Language.find_by_alias('pure-data')
     assert_equal Language['Raw token data'], Language.find_by_alias('raw')
