@@ -761,7 +761,7 @@ Perl:
   - .psgi
   - .t
 
-Powershell:
+PowerShell:
   type: programming
   lexer: PowerShell
   aliases:
