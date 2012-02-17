@@ -763,7 +763,7 @@ Perl:
 
 Powershell:
   type: programming
-  lexer: Text only
+  lexer: PowerShell
   aliases:
   - posh
   extensions:
